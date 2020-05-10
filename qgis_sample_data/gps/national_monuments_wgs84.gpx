@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gpx version="1.0" creator="Quantum GIS">
+<wpt lat="57.9324015750" lon="-134.339927419024">
+<name>Admiralty Island National Monument</name>
+<desc>Pack Creek</desc>
+<src>Digitized in QGIS</src>
+<url>http://www.fs.fed.us/r10/tongass/districts/admiralty/</url>
+<ele>500</ele>
+</wpt>
+<wpt lat="58.6031434526" lon="-155.3610620525">
+<name>Katmai National Park</name>
+<src>Digitized in QGIS</src>
+<url>http://www.katmai.national-park.com/</url>
+</wpt>
+<wpt lat="67.19024574761" lon="-163.51383854061">
+<name>Cape Krusenstern National Monument</name>
+<src>Digitized in QGIS</src>
+<url>http://www.nps.gov/cakr/</url>
+</wpt>
+<wpt lat="55.6262638535" lon="-131.0856595069">
+<name>Misty Fjords National Monument</name>
+<src>Digitized in QGIS</src>
+<url>http://www.fs.fed.us/r10/tongass/forest_facts/resources/wilderness/misty.shtml</url>
+</wpt>
+</gpx>

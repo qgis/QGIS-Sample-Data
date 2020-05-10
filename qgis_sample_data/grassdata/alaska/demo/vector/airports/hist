@@ -1,0 +1,8 @@
+COMMAND: v.in.ogr -o dsn="C:\Downloads\qgis_data\vmap0\airports.shp" output="airports" min_area=0.0001 snap=-1
+GISDBASE: C:\Downloads\qgis_data\grass
+LOCATION: alaska MAPSET: demo USER: Tara DATE: Fri Jun 20 21:59:57 2008
+---------------------------------------------------------------------------------
+COMMAND: v.proj input="airports" location="alaska" mapset="demo" dbase="/arbeit/grassdata/qgis_sample_data/grassdata/" output="airports"
+GISDBASE: /arbeit/grassdata
+LOCATION: alaska2 MAPSET: PERMANENT USER: dassau DATE: Wed Oct  8 11:57:11 2008
+---------------------------------------------------------------------------------

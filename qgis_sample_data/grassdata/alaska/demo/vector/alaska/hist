@@ -1,0 +1,49 @@
+COMMAND: v.in.ogr -o dsn="C:\Downloads\qgis_data\vmap0\alaska.shp" output="alaska_grass" min_area=0.0001 snap=-1
+GISDBASE: C:\Downloads\qgis_data\grass
+LOCATION: alaska MAPSET: demo USER: Tara DATE: Fri Jun 20 21:52:28 2008
+---------------------------------------------------------------------------------
+665 input polygonsTotal area: 1.507877e+012 (661 areas)Overlapping area: 3.037274e+007 (4 areas)Area without category: 0.000000e+000 (0 areas)---------------------------------------------------------------------------------
+COMMAND: v.digit map="alaska"
+GISDBASE: /arbeit/grassdata/qgis_data_2008_06_20/grassdata
+LOCATION: alaska MAPSET: demo USER: dassau DATE: Mon Sep 15 11:11:05 2008
+---------------------------------------------------------------------------------
+COMMAND: QGIS
+GISDBASE: /arbeit/grassdata/qgis_data_2008_06_20/grassdata
+LOCATION: alaska MAPSET: demo USER: dassau DATE: Mon Sep 15 11:12:47 2008
+---------------------------------------------------------------------------------
+COMMAND: QGIS
+GISDBASE: /arbeit/grassdata/qgis_data_2008_06_20/grassdata
+LOCATION: alaska MAPSET: demo USER: dassau DATE: Mon Sep 15 11:13:17 2008
+---------------------------------------------------------------------------------
+COMMAND: QGIS
+GISDBASE: /arbeit/grassdata/qgis_data_2008_06_20/grassdata
+LOCATION: alaska MAPSET: demo USER: dassau DATE: Mon Sep 15 11:13:27 2008
+---------------------------------------------------------------------------------
+COMMAND: QGIS
+GISDBASE: /arbeit/grassdata/qgis_data_2008_06_20/grassdata
+LOCATION: alaska MAPSET: demo USER: dassau DATE: Mon Sep 15 11:14:09 2008
+---------------------------------------------------------------------------------
+COMMAND: QGIS
+GISDBASE: /arbeit/grassdata/qgis_data_2008_06_20/grassdata
+LOCATION: alaska MAPSET: demo USER: dassau DATE: Mon Sep 15 11:14:16 2008
+---------------------------------------------------------------------------------
+COMMAND: QGIS
+GISDBASE: /arbeit/grassdata/qgis_data_2008_06_20/grassdata
+LOCATION: alaska MAPSET: demo USER: dassau DATE: Mon Sep 15 11:14:44 2008
+---------------------------------------------------------------------------------
+COMMAND: QGIS
+GISDBASE: /arbeit/grassdata/qgis_data_2008_06_20/grassdata
+LOCATION: alaska MAPSET: demo USER: dassau DATE: Mon Sep 15 11:17:24 2008
+---------------------------------------------------------------------------------
+COMMAND: v.proj input="alaska" location="alaska" mapset="demo" dbase="/arbeit/grassdata/qgis_sample_data/grassdata/" output="alaska"
+GISDBASE: /arbeit/grassdata
+LOCATION: alaska2 MAPSET: PERMANENT USER: dassau DATE: Wed Oct  8 11:57:14 2008
+---------------------------------------------------------------------------------
+COMMAND: v.db.addcol "alaska" "col=AREA_MILES double precision"
+GISDBASE: /arbeit/grassdata/qgis_sample_data_feet/grassdata
+LOCATION: alaska MAPSET: PERMANENT USER: dassau DATE: Wed Oct  8 12:44:58 2008
+---------------------------------------------------------------------------------
+COMMAND: v.db.addcol "alaska" "col=AREA_MI double precision"
+GISDBASE: /arbeit/grassdata/qgis_sample_data_feet/grassdata
+LOCATION: alaska MAPSET: PERMANENT USER: dassau DATE: Wed Oct  8 12:46:02 2008
+---------------------------------------------------------------------------------

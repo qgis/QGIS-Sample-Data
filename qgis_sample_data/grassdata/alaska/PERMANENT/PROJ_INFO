@@ -1,0 +1,12 @@
+name: Albers Equal Area
+proj: aea
+datum: nad27
+ellps: clark66
+lat_1: 55
+lat_2: 65
+lat_0: 50
+lon_0: -154
+x_0: 0
+y_0: 0
+no_defs: defined
+nadgrids: alaska
