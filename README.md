@@ -93,5 +93,9 @@ collected from http://climate.gi.alaska.edu/Climate/Temperature/mean_temp.html.
 An exctract of the Natural Earth global shaded relief from 
 http://www.naturalearthdata.com/downloads/50m-raster-data/50m-shaded-relief/.
 
+<h3>12) Korodvar Point Cloud (COPC) </h3>
+A COPC-format point cloud test dataset captured at Korodvar,
+Croatia used for testing point cloud rendering in QGIS.
+
 </body></html>
 
